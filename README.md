@@ -7,7 +7,7 @@
 本项目基于以下官方仓库克隆而来：
 
 - **LVGL Windows CodeBlocks 端口**：[https://github.com/lvgl/lv_port_win_codeblocks](https://github.com/lvgl/lv_port_win_codeblocks)
-- **LVGL 核心库 (9.0.0版本)**：[https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff](https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff)
+- **LVGL 核心库**：[https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff](https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff)
 
 **版本信息：**
 - LVGL 核心库版本：9.0.0 (稳定版本)
@@ -134,7 +134,6 @@ my_gui();
 ### LVGL 官方资源
 - [LVGL 官方文档](https://docs.lvgl.io/)
 - [LVGL 在线示例](https://docs.lvgl.io/latest/en/html/examples.html)
-- [LVGL API 参考](https://docs.lvgl.io/latest/en/html/api/index.html)
 - [LVGL GitHub 仓库](https://github.com/lvgl/lvgl)
 - [LVGL Windows CodeBlocks 端口](https://github.com/lvgl/lv_port_win_codeblocks)
 
@@ -187,12 +186,6 @@ lv_display_t * display = lv_windows_create_display(title, 1024, 768, 100, FALSE,
 ## ? 致谢
 
 感谢 LVGL 开发团队提供的优秀开源 GUI 库，以及正点原子团队提供的优质教程资源。
-
----
-
-**祝您学习愉快！** ?
-
-如有问题，请查看 [LVGL 官方论坛](https://forum.lvgl.io/) 或相关教程资源。
 
 ---
 
